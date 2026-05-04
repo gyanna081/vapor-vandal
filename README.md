@@ -14,9 +14,9 @@ Built with MediaPipe Hands, Canvas 2D API, and Vite + TypeScript.
 
 - **Webcam feed** fills the entire screen as the background
 - **MediaPipe Hands** tracks your hand in real time
-- **Index finger tip** (Landmark 8) controls the crosshair
-- **Thumb curl** (Landmark 4 close to Landmark 2) fires a shot
-- On impact: a rectangular region of the camera feed is snapshotted and exploded into physics-driven shards with a bullet hole effect
+- **Raise your index finger** to aim — the crosshair follows your fingertip
+- **Curl your thumb** to shoot — the screen shatters at the crosshair position
+- On impact: a region of the camera feed explodes into physics-driven shards with a bullet hole effect and spark particles
 
 ## Tech stack
 
