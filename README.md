@@ -69,3 +69,5 @@ npm test
 ## Attribution
 
 Shard physics approach inspired by [Wes Bos's website-shatter-shooter](https://github.com/wesbos/hot-tips/blob/main/html-in-canvas/demos/wicg/website-shatter-shooter.html).
+
+Inspired by the TikTok of [funwithcomputervision.com](https://www.funwithcomputervision.com/).
