@@ -1,6 +1,6 @@
 # VaporVandal
 
-An experimental browser experience where you shatter the world with your hands.
+An experimental browser experience where you shatter the world with your hands, and to help me understand how mediapipe works.
 
 Point your **index finger** to aim. **Curl your thumb** to fire.
 
