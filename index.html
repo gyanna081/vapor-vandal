@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>VaporVandal</title>
+    <link rel="stylesheet" href="/src/style.css" />
+  </head>
+  <body>
+
+    <!-- LAYER -1: mirrored camera background — fills entire screen -->
+    <video id="webcam-feed" autoplay playsinline muted></video>
+
+    <!-- LAYER 100: physics shard overlay — pointer-events none -->
+    <canvas id="shard-canvas"></canvas>
+
+    <!-- LAYER 200: crosshair HUD — pointer-events none -->
+    <div id="crosshair"></div>
+
+    <!-- LAYER 300: XP chrome — pointer-events none so shots pass through -->
+    <div id="xp-chrome">
+
+      <!-- Top title bar -->
+      <div id="xp-titlebar">
+        <div id="xp-titlebar-left">
+          <span id="xp-window-icon">▣</span>
+          <span id="xp-title">VaporVandal — webcam</span>
+        </div>
+        <div id="xp-titlebar-right">
+          <span class="xp-btn xp-btn-min">_</span>
+          <span class="xp-btn xp-btn-max">□</span>
+          <span class="xp-btn xp-btn-close">✕</span>
+        </div>
+      </div>
+
+      <!-- Bottom status bar -->
+      <div id="xp-statusbar">
+        <span class="xp-status-cell" id="status-ready">● READY</span>
+        <span class="xp-status-sep">│</span>
+        <span class="xp-status-cell" id="status-hand">HAND: --</span>
+        <span class="xp-status-sep">│</span>
+        <span class="xp-status-cell" id="status-thumb">THUMB: --</span>
+        <span class="xp-status-sep">│</span>
+        <span class="xp-status-cell" id="status-shots">SHOTS: 0</span>
+        <span class="xp-status-spacer"></span>
+        <span class="xp-status-cell" id="status-hint">[ Shoot with your hands to fire. ]</span>
+      </div>
+
+    </div>
+
+    <script type="module" src="/src/main.ts"></script>
+  </body>
+</html>

@@ -1,0 +1,11 @@
+export const PINCH_THRESHOLD = 0.06;
+export const SHOT_COOLDOWN_MS = 200;
+export const WORLD_SHATTER_REGION = 400;
+export const N_SHARDS = 24;
+export const GRAVITY = 0.35;
+export const SHARD_FADE_RATE = 0.008;
+export const SHARD_SPEED_MIN = 4;
+export const SHARD_SPEED_MAX = 16;
+export const OMEGA_MAX = 0.15;
+export const OFFSCREEN_MARGIN = 120;
+export const RESIZE_DEBOUNCE_MS = 100;
